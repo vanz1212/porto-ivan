@@ -31,6 +31,57 @@
         </div>
     </nav>
 
+    <!-- Floating Toggle Button for Mobile / Small Screens -->
+    <button class="line-sidebar-toggle-btn" id="lineSidebarToggle" aria-label="Toggle Line Sidebar" title="Quick Navigation">
+        <i class="fas fa-bars-staggered"></i>
+    </button>
+
+    <!-- ReactBits LineSidebar Component -->
+    <aside class="line-sidebar-wrapper" id="lineSidebarWrapper" aria-label="Line Sidebar Navigation">
+        <div class="line-sidebar-header">
+            <span class="line-sidebar-badge">NAVIGATION</span>
+        </div>
+        <nav class="line-sidebar line-sidebar--markers line-sidebar--scale-tick" id="lineSidebar">
+            <ul class="line-sidebar__list" id="lineSidebarList">
+                <li class="line-sidebar__item" data-target="home">
+                    <span class="line-sidebar__marker" aria-hidden="true"></span>
+                    <span class="line-sidebar__label">
+                        <span class="line-sidebar__index">01</span>
+                        <span class="line-sidebar__text">Home</span>
+                    </span>
+                </li>
+                <li class="line-sidebar__item" data-target="about">
+                    <span class="line-sidebar__marker" aria-hidden="true"></span>
+                    <span class="line-sidebar__label">
+                        <span class="line-sidebar__index">02</span>
+                        <span class="line-sidebar__text">About</span>
+                    </span>
+                </li>
+                <li class="line-sidebar__item" data-target="experience">
+                    <span class="line-sidebar__marker" aria-hidden="true"></span>
+                    <span class="line-sidebar__label">
+                        <span class="line-sidebar__index">03</span>
+                        <span class="line-sidebar__text">Experience</span>
+                    </span>
+                </li>
+                <li class="line-sidebar__item" data-target="skills">
+                    <span class="line-sidebar__marker" aria-hidden="true"></span>
+                    <span class="line-sidebar__label">
+                        <span class="line-sidebar__index">04</span>
+                        <span class="line-sidebar__text">Skills & Certs</span>
+                    </span>
+                </li>
+                <li class="line-sidebar__item" data-target="education">
+                    <span class="line-sidebar__marker" aria-hidden="true"></span>
+                    <span class="line-sidebar__label">
+                        <span class="line-sidebar__index">05</span>
+                        <span class="line-sidebar__text">Education</span>
+                    </span>
+                </li>
+            </ul>
+        </nav>
+    </aside>
+
     <!-- Hero Section -->
     <section id="home" class="hero section-reveal">
         <div class="hero-content">
